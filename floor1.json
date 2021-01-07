@@ -190,16 +190,6 @@
          "y":0
         }, 
         {
-         "id":26,
-         "image":"",
-         "name":"Image Layer 1",
-         "opacity":1,
-         "type":"imagelayer",
-         "visible":true,
-         "x":0,
-         "y":0
-        }, 
-        {
          "draworder":"topdown",
          "id":3,
          "name":"floorLayer",
