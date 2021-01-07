@@ -13,14 +13,35 @@
           path +
           "map.json";
         document.getElementById("mapLink").href = url;
-        document.getElementById("mapLink").innerText = url;
+        document.getElementById("mapLink").innerText = "Digitalen Büro";
       };
     </script>
   </head>
+  <style>
+    body {
+      background: #cde100;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      font-family: Roboto, sans-serif;
+      font-size: 16px;
+    }
+
+    span {
+      font-size: 1.4rem;
+      display: block;
+      text-align: center;
+    }
+
+    a {
+      font-size: 3rem;
+      font-weight: 700;
+      display: block;
+      text-align: center;
+    }
+  </style>
   <body>
-    --> This website contains a map for
-    <a href="https://workadventu.re">Workadventu.re</a>.
-    <br />
-    You can access this map at <a id="mapLink" href=""></a>
+    <span>Hier geht es zum</span><a id="mapLink" href=""></a>
   </body>
 </html>

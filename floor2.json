@@ -190,16 +190,6 @@
          "y":0
         }, 
         {
-         "id":26,
-         "image":"",
-         "name":"Image Layer 1",
-         "opacity":1,
-         "type":"imagelayer",
-         "visible":true,
-         "x":0,
-         "y":0
-        }, 
-        {
          "draworder":"topdown",
          "id":3,
          "name":"floorLayer",
@@ -975,8 +965,17 @@
          "tilewidth":32
         }, 
         {
+         "columns":13,
          "firstgid":321,
-         "source":"Logo.tsx"
+         "image":"assets\/intention_logo.png",
+         "imageheight":425,
+         "imagewidth":425,
+         "margin":0,
+         "name":"Logo",
+         "spacing":0,
+         "tilecount":169,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
